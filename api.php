@@ -1,5 +1,8 @@
 <?php
-// demo
+/*
+ * @github: https://github.com/dangtiensi
+ */
+
 if (!empty($_GET['text']))
 {
     $type = $_GET['type'] ?? 'b';
