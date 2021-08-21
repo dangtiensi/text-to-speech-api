@@ -36,7 +36,6 @@ class Speech
                 'speakingRate'  => 1.00
             ]
         ];
-        file_put_contents(__DIR__ . '/text.txt', $text);
         return json_decode($this->getAPI($request), true);
     }
 
